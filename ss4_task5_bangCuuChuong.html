@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ss4_task5_bangCuuChuong</title>
+</head>
+<body>
+<script>
+    let block = "<table width = '300' border = '1' cellspacing='0' cellpadding='1'>";
+    for (i = 2; i <= 9; i++){
+        block = block + "<tr>"
+        for (j = 1; j <= 9; j++){
+            block = block + "<td>" + i + '*' + j + '=' + i*j + "</td>";
+        }
+        block = block + "</tr>"
+    }
+    block = block + "</table>";
+    document.write(block);
+</script>
+</body>
+</html>
